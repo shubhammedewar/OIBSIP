@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #edf1fd;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;  
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    cursor: pointer;
+    list-style: none;
+}
+ul li:hover{
+    text-decoration: underline solid rgba(0, 0, 255, 0.626);
+    font-weight:bolder;
+}
+.logo{
+    font-weight: 600;
+    font-size: x-large;color: rgb(24, 218, 108);
+}
+
+button{
+    background-color: #0ca171f8;
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid aliceblue;
+    padding: 2px 5px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: aliceblue;
+    color: brown;
+    border: 1px solid black;
+}
+input[type=text]{
+    padding: 1px 5px;
+}
+h2{
+    font-weight: 600;
+}
+h2 span{
+    color: rgb(21, 160, 160);
+    background-color: rgba(124, 118, 118, 0.208);
+    font-weight:bolder;
+}
+p{
+    font-weight: 600;
+}
+p span{
+    color: rgb(21, 160, 160);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 350px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.profile img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
